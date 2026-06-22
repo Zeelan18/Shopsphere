@@ -18,9 +18,8 @@ export default function Cart() {
 
   const [loading, setLoading] =
     useState(true);
-    
-  const [ordering, setOrdering] =
-    useState(false);
+
+  
 
   const refreshCart = async () => {
     try {
